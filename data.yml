@@ -1,7 +1,8 @@
 - hosts: database
   var:
      password: Jeffrey&funmi
-     username: Grace240i
+     username: Grace240
+     hostname: Jeffrey
 tasks:
     - name: create username
       user: "{{username}}"
