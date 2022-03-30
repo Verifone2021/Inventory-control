@@ -1,0 +1,4 @@
+echo "enter the filename"
+read filename
+echo "Learning version with Git" > $filename
+cat $filename
