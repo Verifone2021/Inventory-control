@@ -1,3 +1,3 @@
 #!/bin/bash
 echo list of gadget
-echo Motorola Apple Nokia Samsung
+echo Motorola Apple Nokia Samsungs
