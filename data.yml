@@ -1,0 +1,14 @@
+- hosts: database
+  var:
+     password: Jeffrey&funmi
+     username: Grace240i
+tasks:
+    - name: create username
+      user: "{{username}}"
+      state: present
+    - name: install package
+      package: ['wget', 'unzip']
+      state: lastest
+    - name:
+      debug:
+        msg: "{{password}}"
